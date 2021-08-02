@@ -3,7 +3,7 @@ let div1 = document.getElementById('div1');
 
 const Seattle = {
     bracnchNAme: 'Seattle',
-    pranchHour: ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm'],
+    pranchHour: ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm','7pm'],
     avgMinMAX:[23,65,6.3],
     /* minimumNumberOfCustomersPerHour: 23,
     maximumCustomersPerHour: 65,
@@ -60,7 +60,7 @@ Seattle.render();
 
 const Tokyo = {
     bracnchNAme: 'Tokyo',
-    pranchHour: ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm'],
+    pranchHour: ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm','7pm'],
     avgMinMAX:[3,24,1.2],
     /* minimumNumberOfCustomersPerHour: 3,
     maximumCustomersPerHour: 24,
@@ -117,7 +117,7 @@ Tokyo.render();
 
 const Dubai = {
     bracnchNAme: 'Dubai',
-    pranchHour: ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm'],
+    pranchHour: ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm','7pm'],
     avgMinMAX:[11,38,3.7],
     /* minimumNumberOfCustomersPerHour: 11,
     maximumCustomersPerHour: 38,
@@ -176,7 +176,7 @@ Dubai.render();
 
 const Paris	 = {
     bracnchNAme: 'Paris	',
-    pranchHour: ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm'],
+    pranchHour: ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm','7pm'],
     avgMinMAX:[20,38,2.3],
     /* minimumNumberOfCustomersPerHour: 20,
     maximumCustomersPerHour: 38,
@@ -233,7 +233,7 @@ Paris.render();
 
 const Lima	 = {
     bracnchNAme: 'Lima	',
-    pranchHour: ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm'],
+    pranchHour: ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm','7pm'],
     avgMinMAX:[2,16,4.6],
     /* minimumNumberOfCustomersPerHour: 2,
     maximumCustomersPerHour: 16,
