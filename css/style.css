@@ -1,10 +1,29 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
 body{
     font-family: 'Zilla Slab Highlight', cursive;
     margin: 0;
-    height: 2000px;
+    height: 1500px;
     
     
+    
+    
+}
+ul{
+    list-style-type: none;
+}
+.warrp{ 
+    display:grid;
+    grid-template-columns:   30%  30%  ;
+    grid-gap: 1em;
+   
+}
+
+.first{
+   display: grid;
+   justify-content: center;
+
+
 }
 
 main{
@@ -19,14 +38,14 @@ nav{
     overflow:hidden;
     position:fixed;
     width: 100%;
+    background-color: rgb(39, 34, 34);
 }
 
 h2,h1{
-    color: violet;
+    color: white; 
 }
 nav ul{
     width: 100%;
-    background-color: bisque;
     list-style-type: none;
     float: left;
     
@@ -40,12 +59,19 @@ nav ul li{
 nav ul li a
 {
     float: left;
-  display: block;
+ 
   text-align: center;
-  padding: 14px 16px;
+  padding: 6px 6px;
   text-decoration: none;
-  font-size: 17px;
+  font-size:20px;
     text-decoration: none;
+    color: white;
+
+}
+nav ul li a:hover
+{
+background-color: rgb(0, 0, 0);
+ transition: 5000ms ;
 }
 
 nav ul li img{
@@ -59,3 +85,28 @@ nav ul li img{
 table, th, td {
     border: 1px solid black;
   }
+
+
+  footer{
+      background-color: rgb(29, 25, 25);
+  }
+  footer>div
+  {
+      text-align: center;
+      color: white;
+      display: block;
+  }
+
+  .contact{
+      background-color: rgb(39, 34, 34);
+     
+      display: grid;
+      grid-template-columns: 50% 50%;
+      font-size: 20px;
+
+
+
+  }
+
+
+  
