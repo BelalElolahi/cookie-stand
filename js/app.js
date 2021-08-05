@@ -15,7 +15,7 @@ function headTable() {
     let trElement = document.createElement('tr');
     tabelele.appendChild(trElement);
 
-    Hours.unshift(''); // add embty string at the first in the array 
+    Hours.unshift('Store'); // add embty string at the first in the array 
     Hours.push('Daily Total');
     for (let i = 0; i < Hours.length; i++) {
         let thEle1 = document.createElement('th');
@@ -203,7 +203,6 @@ function branchHandler(submitEvent) {
 }
 
 footerTable();
-
 
 
 
